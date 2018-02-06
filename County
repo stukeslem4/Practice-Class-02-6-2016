@@ -1,0 +1,20 @@
+public class County {
+String CountyName;
+int CountyPopulation;
+int Countyyearestablished;
+double CountyLandvolume;
+	public County(String Name,int Population,int established,double volume) {
+		// TODO Auto-generated constructor stub
+
+	CountyName=Name;
+	CountyPopulation=Population;
+	Countyyearestablished=established;
+	CountyLandvolume=volume;
+	
+	
+	
+	}
+
+	
+
+}
