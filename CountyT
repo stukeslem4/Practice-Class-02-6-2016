@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class CountyT {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Scanner K=new Scanner(System.in);	
+	System.out.println("What is the county name?");	
+	String C=K.nextLine();
+	
+	System.out.println("What is the population");	
+	int P=K.nextInt();
+	
+	System.out.println("What year was the county established?");	
+	int E=K.nextInt();
+	
+	System.out.println("What is the land's volume?");	
+	double V=K.nextDouble();
+	
+	County U=new County(C,P,E,V);
+	
+	System.out.println(U.CountyName);
+	System.out.println(U.CountyPopulation);
+	System.out.println(U.Countyyearestablished);
+	System.out.println(U.CountyLandvolume);
+		
+	}	
+	
+}
